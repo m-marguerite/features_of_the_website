@@ -32,6 +32,3 @@ JavaScript – Animation avec l’API Web Animations
 Ce projet permet de découvrir l’API Web Animations pour créer et contrôler des animations directement en JavaScript.  
 Il montre également la gestion des événements sur des boutons pour interagir avec l’animation en temps réel.
 
-## 📧 Contact
-
-Auteur : m-marguerite
