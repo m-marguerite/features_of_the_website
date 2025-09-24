@@ -1,50 +1,35 @@
-# Lightbox Viewer
+# 📝 Lightbox Viewer
 
-Ce projet est une petite application web permettant d’afficher une **galerie d’images cliquables**.  
-Lorsqu’on clique sur une image miniature, elle s’ouvre en grand dans une **lightbox** (fenêtre modale avec arrière-plan assombri).  
-L’utilisateur peut fermer la lightbox via un bouton ❌ ou en cliquant sur l’arrière-plan.
+Ce projet permet de créer une galerie d’images interactive avec une **lightbox**, permettant d’ouvrir une image en grand format au clic et de la fermer facilement.
 
----
+## 🚀 Fonctionnalités
 
-## Structure des fichiers
+- Galerie d’images cliquables.
+- Affichage en plein écran via lightbox.
+- Fermeture de la lightbox avec le bouton ou en cliquant sur le fond.
+- Animation légère au survol des images.
 
-### 1. `index.html`
-- Contient la **structure principale** de la page.
-- Éléments clés :
-  - Une **galerie** (`.gallery`) avec plusieurs images miniatures.
-  - Une **lightbox** (`.lightbox`) qui s’affiche en plein écran lorsqu’on clique sur une image.
-  - Un bouton `#close-btn` pour fermer la lightbox.
-- Les fichiers `styles.css` et `script.js` sont reliés ici.
+## ⚙️ Prérequis
 
----
+- Navigateur web moderne (Chrome, Firefox, Edge…)
+- Connaissances de base en HTML, CSS et JavaScript
 
-### 2. `styles.css`
-- Définit le **style visuel** de la galerie et de la lightbox.
-- Principales règles :
-  - La galerie (`.gallery`) s’affiche en **ligne avec un espace entre les images**.
-  - Les images miniatures (`.gallery-item`) ont un effet de **zoom léger au survol**.
-  - La lightbox (`.lightbox`) couvre toute la fenêtre avec un **fond semi-transparent noir** et centre l’image.
-  - Le bouton de fermeture (`#close-btn`) est positionné en bas au centre.
+## 📂 Structure du projet
+lightbox-viewer/  
+│── index.html      # Contient la galerie et la lightbox  
+│── styles.css      # Style de la galerie, lightbox et animations  
+│── script.js       # Gestion de l’ouverture et fermeture de la lightbox  
+│── README.md       # Documentation  
 
----
+## 🛠️ Technologies utilisées
 
-### 3. `script.js`
-- Contient la **logique interactive** du projet en JavaScript.
-- Fonctionnalités :
-  1. **Ouvrir la lightbox**  
-     - Quand on clique sur une image miniature, le script remplace `-thumbnail` dans l’URL pour charger l’image en grand et affiche la lightbox.
-  2. **Fermer la lightbox avec le bouton ❌**.
-  3. **Fermer la lightbox en cliquant sur l’arrière-plan** (mais pas sur l’image).
+HTML5 – Structure de la galerie et lightbox  
+CSS3 – Mise en forme, layout et animations au survol  
+JavaScript – Interactions pour ouvrir et fermer la lightbox  
 
----
+## 🎯 Objectif pédagogique
 
-## Fonctionnalités principales
-- Galerie responsive avec plusieurs images miniatures.
-- Ouverture de l’image sélectionnée en grand format.
-- Fermeture simple via bouton ou arrière-plan.
-- Utilisation de `flexbox` pour centrer les éléments dans la lightbox.
-
----
-
-## Licence
-Projet à but **éducatif** dans le cadre du cursus [FreeCodeCamp](https://www.freecodecamp.org/).
+Ce projet permet de pratiquer :
+- la manipulation du DOM pour afficher dynamiquement des images,
+- la gestion d’événements (clic sur image, bouton ou arrière-plan),
+- le contrôle de styles CSS via JavaScript pour créer une expérience utilisateur interactive.
