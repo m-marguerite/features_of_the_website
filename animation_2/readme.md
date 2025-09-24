@@ -15,11 +15,11 @@ Ce projet illustre l’utilisation de l’API Web Animations pour animer un carr
 - Connaissances de base en HTML, CSS et JavaScript.
 
 ## 📂 Structure du projet
-animation-v2/
-│── index.html      # Structure HTML principale avec le carré et les boutons
-│── styles.css      # Mise en forme du carré et du design général
-│── script.js       # Gestion de l’animation et des contrôles Play/Pause
-│── README.md       # Documentation
+animation-v2/  
+│── index.html      # Structure HTML principale avec le carré et les boutons  
+│── styles.css      # Mise en forme du carré et du design général  
+│── script.js       # Gestion de l’animation et des contrôles Play/Pause  
+│── README.md       # Documentation  
 
 ## 🛠️ Technologies utilisées
 
