@@ -16,10 +16,10 @@ Ce projet illustre l’animation d’un élément HTML (rectangle) se déplaçan
 
 ## 📂 Structure du projet
 test-with-animation/
-│── index.html      # Contient la structure HTML principale et importe CSS/JS 
-│── styles.css      # Définit le style et la mise en page du rectangle 
-│── script.js       # Gère l’animation du rectangle avec requestAnimationFrame 
-│── README.md       # Documentation
+│── index.html      # Contient la structure HTML principale et importe CSS/JS  
+│── styles.css      # Définit le style et la mise en page du rectangle  
+│── script.js       # Gère l’animation du rectangle avec requestAnimationFrame  
+│── README.md       # Documentation  
 
 ## 🛠️ Technologies utilisées
 
