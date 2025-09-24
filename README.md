@@ -1,2 +1,2 @@
 # features_of_website
-Ce repository contient une collection de projets web et d’exercices issus de FreeCodeCamp, mettant en avant différentes fonctionnalités et aspects interactifs des sites. Ces projets font partie de mon parcours personnel pour devenir développeur full-stack, en pratiquant le HTML, CSS, JavaScript et la manipulation du DOM.
+This repository contains a collection of web projects and exercises from FreeCodeCamp, highlighting different features and interactive aspects of websites. These projects are part of my personal journey to become a full-stack developer, practicing HTML, CSS, JavaScript, and DOM manipulation.
