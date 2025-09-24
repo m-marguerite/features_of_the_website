@@ -2,8 +2,6 @@
 
 Petit exercice en **HTML, CSS et JavaScript** qui affiche un rectangle animé se déplaçant en boucle de gauche à droite sur l’écran, contenant le texte *"freeCodeCamp is Awesome"*.
 
----
-
 ## ✨ Fonctionnalités
 
 - Déplacement fluide d’un rectangle avec `requestAnimationFrame`.
@@ -11,14 +9,10 @@ Petit exercice en **HTML, CSS et JavaScript** qui affiche un rectangle animé se
 - Design simple, centrage du texte à l’intérieur du rectangle.
 - Code minimaliste et réutilisable.
 
----
-
 ## ⚙️ Prérequis
 
 - Un simple navigateur web moderne (Chrome, Firefox, Edge, etc.)
 - Aucun framework ou installation supplémentaire n’est nécessaire.
-
----
 
 📂 Structure du projet
 animation-rectangle/
@@ -26,8 +20,6 @@ animation-rectangle/
 │── styles.css      # Styles CSS
 │── script.js       # Animation JavaScript
 │── README.md       # Documentation
-
----
 
 🛠️ Technologies utilisées
 
