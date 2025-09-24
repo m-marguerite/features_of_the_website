@@ -1,38 +1,36 @@
-📂 Fichiers du projet
-1. index.html
+# 📝 Build a Set of Football Team Cards
 
-Contient la structure de la page (le squelette HTML).
+Ce projet permet de générer dynamiquement des cartes de joueurs d’une équipe de football et de filtrer les joueurs par position.
 
-Sert principalement de point d’entrée pour tester les exercices FreeCodeCamp.
+## 🚀 Fonctionnalités
 
-En général, il inclut un fichier script.js et parfois styles.css.
+- Affichage des informations principales de l’équipe : nom, année, entraîneur principal.
+- Création dynamique de cartes pour chaque joueur avec son nom et sa position.
+- Marque le capitaine de l’équipe sur sa carte.
+- Filtrage des joueurs par position via un menu déroulant.
 
-Exemple de contenu typique : une page simple avec un <script src="script.js"></script> à la fin du <body> pour charger ton code JS.
+## ⚙️ Prérequis
 
-👉 Rôle : afficher la page et lier ton code JS/CSS.
+- Navigateur web moderne (Chrome, Firefox, Edge…)
+- Connaissances de base en HTML, CSS et JavaScript
 
-2. styles.css
+## 📂 Structure du projet
+football-team-cards/  
+│── index.html      # Structure HTML avec conteneurs pour l’équipe et les cartes  
+│── styles.css      # Mise en forme générale et style des cartes  
+│── script.js       # Génération dynamique des cartes et filtrage par position  
+│── README.md       # Documentation  
 
-Contient le style visuel de la page (couleurs, polices, marges, etc.).
+## 🛠️ Technologies utilisées
 
-Pour ces exercices FreeCodeCamp, il est souvent très simple voire vide, car l’important est le JavaScript.
+HTML5 – Structure de la page  
+CSS3 – Mise en forme des cartes et design responsif  
+JavaScript – Manipulation du DOM, filtrage et affichage dynamique  
 
-Exemple typique : un peu de mise en forme pour que la page soit lisible (alignement, couleurs de fond, etc.).
+## 🎯 Objectif pédagogique
 
-👉 Rôle : donner un peu de présentation au HTML.
-
-3. script.js
-
-C’est le cœur de l’exercice.
-
-Contient les fonctions demandées par FreeCodeCamp :
-
-diffArray(arr1, arr2) : calcule la différence symétrique entre deux tableaux.
-
-sumPrimes(num) : calcule la somme des nombres premiers ≤ num.
-
-Chaque fonction est autonome, testée par FreeCodeCamp.
-
-Peut contenir des console.log() pour vérifier les résultats.
-
-👉 Rôle : implémenter la logique JavaScript demandée par l’exercice.
+Ce projet illustre comment manipuler le DOM pour générer du contenu dynamique.  
+Il met en pratique :
+- les objets et tableaux JavaScript,
+- la création d’éléments HTML avec `createElement`,
+- l’ajout d’événements sur des menus déroulants.
