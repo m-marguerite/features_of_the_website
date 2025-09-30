@@ -33,7 +33,3 @@ Ce projet permet de pratiquer :
 - La manipulation du DOM pour créer et filtrer des éléments dynamiquement.  
 - L’écoute d’événements (`change`) sur un `select`.  
 - La création d’un layout responsive avec flexbox et media queries.  
-
-## 📧 Contact
-
-Auteur : m-marguerite
