@@ -1,0 +1,43 @@
+/* Police générale et couleurs */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Liste des items */
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin: auto;
+}
+
+.item-list li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Boutons cœur */
+.favorite-icon {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: grey;
+  transition: transform 0.2s;
+}
+
+.favorite-icon.filled {
+  color: red;
+  transform: scale(1.2); /* petit effet au clic */
+}
